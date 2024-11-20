@@ -1,0 +1,31 @@
+.delete {
+	height: 250px;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: url('https://i0.wp.com/carlosjeguren.com/wp-content/uploads/2016/03/escribir-libros-gif.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.delete__title {
+	display: flex;
+	/* flex-direction: row; */
+	/* align-items: center; */
+	/* align-content: center; */
+	justify-content: center;
+	color: red;
+}
+
+.delete__title__btn {
+	background-color: rgb(82, 82, 169);
+	border: 1px solid rgb(82, 82, 169);
+	outline: 1px solid #fff;
+	outline-offset: -4px;
+	color: #fff;
+	font-weight: 400;
+	padding: 0.5em 1.25em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

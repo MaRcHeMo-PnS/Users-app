@@ -1,0 +1,35 @@
+.pagination {
+	display: flex;
+	justify-content: center;
+	margin: 2.5em auto 2em;
+	gap: 0.5em;
+}
+
+.btn2:hover,
+.btn:hover {
+	box-shadow: 0 0 35px 0 #40bc30ea;
+}
+
+.btn {
+	border: none;
+	background-color: #9acd32;
+	border-radius: 0 8px 8px 0;
+	padding: 0.5em 0.75em;
+	font-size: 1.1rem;
+	outline: none;
+}
+.btn1 {
+	border: none;
+	background-color: #fff;
+	padding: 0.43em 0.75em;
+	font-size: 1.1rem;
+	outline: none;
+}
+.btn2 {
+	border: none;
+	background-color: #9acd32;
+	border-radius: 8px 0 0 8px;
+	padding: 0.5em 0.75em;
+	font-size: 1.1rem;
+	outline: none;
+}

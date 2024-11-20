@@ -1,0 +1,89 @@
+.card {
+	border: 1px solid #ccc;
+	background-color: #fff;
+	padding: 1.25em;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card:hover {
+	box-shadow: 0 0 35px 10px rgb(213, 236, 8);
+}
+
+.card__name {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 0.5em;
+}
+
+.card__btns {
+	border-top: 1px solid #ccc;
+	padding-top: 0.5em;
+	display: flex;
+	justify-content: flex-end;
+	gap: 0.5em;
+}
+
+.card__info {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	font-size: small;
+}
+
+.card__label {
+	display: block;
+	text-transform: uppercase;
+	color: #aaa;
+	font-size: medium;
+}
+
+.card__data {
+	display: flex;
+	align-items: center;
+	gap: 0.25em;
+}
+
+.icon--gift {
+	font-size: 18px;
+	color: red;
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+	border: none;
+	font-size: 18px;
+	padding: 0.5em;
+}
+.btn--delete {
+	background-color: #ff9999;
+	color: #fff;
+}
+
+.btn--delete:hover {
+	box-shadow: 0 0 15px 10px rgb(214, 10, 10);
+}
+
+.btn--edit {
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+	color: rgb(11, 48, 172);
+}
+
+.btn--edit:hover {
+	box-shadow: 0 0 15px 10px rgb(11, 48, 172);
+}
+
+.icon--gift2 {
+	font-size: 18px;
+	color: blue;
+}
+
+.icon--gift3 {
+	font-size: 20px;
+	color: blue;
+}
